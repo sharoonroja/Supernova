@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [com.qa.ING.LiveOakBank_TestScripts.LoginPageOakBank_Test]">
+  <test thread-count="5" verbose="0" name="Command line test(failed)">
+    <classes>
+      <class name="com.qa.ING.LiveOakBank_TestScripts.LoginPageOakBank_Test">
+        <methods>
+          <include name="setUp"/>
+          <include name="endReport"/>
+          <include name="TC_002"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- com.qa.ING.LiveOakBank_TestScripts.LoginPageOakBank_Test -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [com.qa.ING.LiveOakBank_TestScripts.LoginPageOakBank_Test] -->

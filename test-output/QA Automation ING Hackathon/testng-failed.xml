@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ QA Automation ING Hackathon]">
+  <listeners>
+    <listener class-name="atu.testng.reports.listeners.ATUReportsListener"/>
+    <listener class-name="atu.testng.reports.listeners.ConfigurationListener"/>
+    <listener class-name="atu.testng.reports.listeners.MethodListener"/>
+  </listeners>
+  <test thread-count="5" name=" LiveOakBAnk QA Automation(failed)">
+    <classes>
+      <class name="com.qa.ING.LiveOakBank_TestScripts.LoginPageOakBank_Test">
+        <methods>
+          <include name="setUp"/>
+          <include name="endReport"/>
+          <include name="TC_002"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- com.qa.ING.LiveOakBank_TestScripts.LoginPageOakBank_Test -->
+    </classes>
+  </test> <!--  LiveOakBAnk QA Automation(failed) -->
+</suite> <!-- Failed suite [ QA Automation ING Hackathon] -->

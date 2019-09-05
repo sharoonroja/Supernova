@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Data driven basics]">
+  <test thread-count="5" name="loginBankTest(failed)">
+    <classes>
+      <class name="com.qa.ING.TestCases.loginBankTest">
+        <methods>
+          <include name="writingSubsectionNames"/>
+          <include name="getResult"/>
+          <include name="setUp"/>
+          <include name="endReport"/>
+        </methods>
+      </class> <!-- com.qa.ING.TestCases.loginBankTest -->
+    </classes>
+  </test> <!-- loginBankTest(failed) -->
+</suite> <!-- Failed suite [Data driven basics] -->

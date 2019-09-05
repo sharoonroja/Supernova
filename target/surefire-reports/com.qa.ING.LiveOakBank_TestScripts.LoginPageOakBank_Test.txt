@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.qa.ING.LiveOakBank_TestScripts.LoginPageOakBank_Test
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 46.523 sec <<< FAILURE!
+TC_002(com.qa.ING.LiveOakBank_TestScripts.LoginPageOakBank_Test)  Time elapsed: 9.03 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.fail(Assert.java:103)
+	at com.qa.ING.LiveOakBank_TestScripts.LoginPageOakBank_Test.TC_002(LoginPageOakBank_Test.java:66)
+

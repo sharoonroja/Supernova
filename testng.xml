@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name=" QA Automation ING Hackathon">
+	<test name=" LiveOakBAnk QA Automation">
+	 <classes>
+	   <class name="com.qa.ING.LiveOakBank_TestScripts.LoginPageOakBank_Test"/>
+	 </classes>
+   </test>
+   
+   <listeners>
+        <listener class-name="atu.testng.reports.listeners.ATUReportsListener"></listener>
+        <listener class-name="atu.testng.reports.listeners.ConfigurationListener"></listener>
+        <listener class-name="atu.testng.reports.listeners.MethodListener"></listener>
+    </listeners>
+</suite> 
